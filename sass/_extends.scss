@@ -1,0 +1,71 @@
+@import 'fonts';
+@import 'colors';
+
+%titles {
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: $title-font;
+}
+
+%links {
+    display: flex;
+    justify-content: space-around;
+    color: $link-text-color;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+%borders {
+    border: 1px solid $border-color;
+    border-radius: 30px,
+}
+
+%buttons {
+    color: $main-text-color;
+    border: none;
+    font-family: $main-text-font;
+    font-size: 15px;
+    background-color: $button-color;
+}
+
+%buttons-hover {
+    background-color: #F28482;
+    border-radius: 8px;
+    border: 1px solid #F5CAC3;
+    transform: scale(1.03);
+}
+
+%center-and-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%forms {
+    background-color: #F7EDE2;
+    border: 2px dotted #F28482;
+    color: #696969;
+    padding: 10px;
+    position: fixed;
+    bottom: 90px;
+    right: 3px;
+}
+
+%fixed {
+    padding: 10px;
+    position: fixed;
+    bottom: 45px;
+    right: 3px;
+}
+
+%desktop-image-size {
+    width: 540px;
+    height: 360px;
+}
+
+%desktop-thumbnail-size {
+    width: 300px;
+    height: 200.1;
+}
+
